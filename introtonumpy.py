@@ -182,18 +182,21 @@ print(a)
 # print 0th and last element in array
 print(a[0], a[-1])
 
+# multi-index method to select 0th and last element
 print(a[[0, -1]])
 
+# boolean method to select elements in the array; select the 0th & 4th element
 print(a[[True, False, False, True]])
 
 print(a)
-# print true | false for indexes with values >= 2 in array a
+# filtering | query mechanism; print true | false for indexes with values >= 2 in array a
 print(a >= 2)
 
 #print(a > 1)
 #print(a > 0)
 #print(a >= 0)
 
+# filtering elements in the array
 a[a >= 2]
 print(a[a >= 2])
 
@@ -221,13 +224,15 @@ print(A[np.array([
     [True, False, True]
 ])])
 
-# print mask for locations > 30 in array A
+# print mask for locations > 30 in array A; generates the true | false matrix which can be used for filtering
 print(A > 30)
 
 # print values > 30 in array A
 print(A[A > 30])
 
 # linear algebra
+# https://www.freecodecamp.org/learn/data-analysis-with-python/data-analysis-with-python-course/numpy-algebra-and-size
+
 A = np.array([
     [1, 2, 3],
     [4, 5, 6],
@@ -240,8 +245,10 @@ B = np.array([
     [2, 1]
 ])
 
+# dot product
 print(A.dot(B))
 
+# cross product
 print(A @ B)
 
 # transform B
@@ -279,7 +286,11 @@ print(np.array([1]).nbytes)
 l = list(range(100000))
 a = np.arange(100000)
 
+# numpy will be extremely faster compared to python
 # %time np.sum(a ** 2)
+
+# %time sum([x == 2 for x in l])
+
 
 # Useful Numpy functions
 # random
@@ -340,6 +351,7 @@ print('identity & eye: eye 8,4, k=-3')
 print(np.eye(8, 4, k=-3))
 
 print("Hello World"[6])
+
 
 
 
