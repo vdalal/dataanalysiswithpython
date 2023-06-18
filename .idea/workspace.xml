@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="463e87aa-8dbc-4835-b05c-ea9b4b4855cd" name="Changes" comment="updated for ch 2 (boolean arrays, masks, linear algebra etc.)">
+    <list default="true" id="463e87aa-8dbc-4835-b05c-ea9b4b4855cd" name="Changes" comment="added comments">
+      <change afterPath="$PROJECT_DIR$/numpyexercise.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/introtonumpy.py" beforeDir="false" afterPath="$PROJECT_DIR$/introtonumpy.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,13 +71,21 @@
       <option name="project" value="LOCAL" />
       <updated>1686964595568</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added comments">
+      <created>1686970144446</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1686970144446</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial" />
     <MESSAGE value="updated for ch 2" />
     <MESSAGE value="updated for ch 2 (boolean arrays, masks, linear algebra etc.)" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated for ch 2 (boolean arrays, masks, linear algebra etc.)" />
+    <MESSAGE value="added comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="added comments" />
   </component>
 </project>
