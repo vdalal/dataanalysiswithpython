@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="463e87aa-8dbc-4835-b05c-ea9b4b4855cd" name="Changes" comment="added comments">
-      <change afterPath="$PROJECT_DIR$/numpyexercise.py" afterDir="false" />
+    <list default="true" id="463e87aa-8dbc-4835-b05c-ea9b4b4855cd" name="Changes" comment="completed numpy exercise">
+      <change afterPath="$PROJECT_DIR$/introtopandas.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686970144446</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="completed numpy exercise">
+      <created>1687113416054</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1687113416054</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -86,6 +93,7 @@
     <MESSAGE value="updated for ch 2" />
     <MESSAGE value="updated for ch 2 (boolean arrays, masks, linear algebra etc.)" />
     <MESSAGE value="added comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="added comments" />
+    <MESSAGE value="completed numpy exercise" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed numpy exercise" />
   </component>
 </project>
