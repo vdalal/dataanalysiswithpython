@@ -120,5 +120,45 @@ print(g7_pop)
 g7_pop = g7_pop * 1000000
 print(g7_pop)
 
+print(g7_pop.mean())
+
+print(np.log(g7_pop))
+
+# mean of indexes 'France' & 'Italy'
+print(g7_pop['France': 'Italy'].mean())
+
+# Boolean arrays
+# (Work in the same way as numpy)
+
+print(g7_pop)
+
+# mask of countries with population > 80 mil
+print(g7_pop > 80)
+
+# list of countries with population > 80 mil
+print(g7_pop[g7_pop > 80])
+
+# list of countries with population > 80 mil and < 40 mil
+print('Countries with population gt 80 mil and lt 40 mil:', g7_pop[(g7_pop > 80) | (g7_pop < 40)])
+
+# list of countries with population > 80 mil and < 200 mil
+print('Countries with population gt 80 mil and lt 200 mil:', g7_pop[(g7_pop > 80) & (g7_pop < 200)])
+
+# Modifying series
+g7_pop['Canada'] = 40.5
+print('Modified Canada population:', g7_pop['Canada'])
+
+print(g7_pop)
+
+# Set last index to 500
+g7_pop.iloc[-1] = 500
+print(g7_pop)
+
+print('Population less than 70 mil:', g7_pop[g7_pop < 70])
+
+g7_pop[g7_pop < 70] = 99.99
+print(g7_pop)
+
+
 
 
