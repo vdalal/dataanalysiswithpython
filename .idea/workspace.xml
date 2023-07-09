@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="463e87aa-8dbc-4835-b05c-ea9b4b4855cd" name="Changes" comment="completed numpy exercise">
-      <change afterPath="$PROJECT_DIR$/introtopandas.py" afterDir="false" />
+    <list default="true" id="463e87aa-8dbc-4835-b05c-ea9b4b4855cd" name="Changes" comment="initial: intro to numpy">
+      <change afterPath="$PROJECT_DIR$/dataframeexercise.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pandasdataframe.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pandasexercise.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +87,21 @@
       <option name="project" value="LOCAL" />
       <updated>1687113416054</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="initial: intro to numpy">
+      <created>1687276200796</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1687276200796</updated>
+    </task>
+    <task id="LOCAL-00007" summary="initial: intro to numpy">
+      <created>1688267973929</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1688267973929</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -94,6 +110,7 @@
     <MESSAGE value="updated for ch 2 (boolean arrays, masks, linear algebra etc.)" />
     <MESSAGE value="added comments" />
     <MESSAGE value="completed numpy exercise" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed numpy exercise" />
+    <MESSAGE value="initial: intro to numpy" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial: intro to numpy" />
   </component>
 </project>
