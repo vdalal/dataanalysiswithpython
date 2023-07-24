@@ -86,7 +86,8 @@ print(g7_pop[['Italy', 'France']])
 
 print(g7_pop[['Italy', 'France']])
 
-# range; from Canada to Italy
+# range; from Canada to Italy (upper limit inclusive)
+# NOTE: In Python, the upper limit in range is NOT included but in pandas it is! e.g. Italy in example below will be in the result
 print(g7_pop['Canada': 'Italy'])
 
 # Conditional selection (boolean arrays)

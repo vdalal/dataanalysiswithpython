@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="463e87aa-8dbc-4835-b05c-ea9b4b4855cd" name="Changes" comment="initial: intro to numpy">
-      <change afterPath="$PROJECT_DIR$/dataframeexercise.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pandasdataframe.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pandasexercise.py" afterDir="false" />
+    <list default="true" id="463e87aa-8dbc-4835-b05c-ea9b4b4855cd" name="Changes" comment="initial: intro to pandas, dataframe and exercises for both">
+      <change afterPath="$PROJECT_DIR$/data/btc-market-price.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datacleaningwithpandas.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/introtopandas.py" beforeDir="false" afterPath="$PROJECT_DIR$/introtopandas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pandasdataframe.py" beforeDir="false" afterPath="$PROJECT_DIR$/pandasdataframe.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +44,34 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="datacleaningwithpandas" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="dataanalysiswithpython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/datacleaningwithpandas.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.datacleaningwithpandas" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -101,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688267973929</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="initial: intro to pandas, dataframe and exercises for both">
+      <created>1688883373855</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1688883373855</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -111,6 +147,7 @@
     <MESSAGE value="added comments" />
     <MESSAGE value="completed numpy exercise" />
     <MESSAGE value="initial: intro to numpy" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial: intro to numpy" />
+    <MESSAGE value="initial: intro to pandas, dataframe and exercises for both" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial: intro to pandas, dataframe and exercises for both" />
   </component>
 </project>
